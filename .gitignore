@@ -1,0 +1,11 @@
+# python cache files
+__pycache__/
+*.pyc
+
+# build artifacts
+build/
+dist/
+mark_sideways.egg-info/
+
+# test coverage
+.coverage
