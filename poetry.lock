@@ -185,7 +185,7 @@ description = "Render rich text, tables, progress bars, syntax highlighting, mar
 name = "rich"
 optional = false
 python-versions = ">=3.6,<4.0"
-version = "1.0.3"
+version = "1.1.6"
 
 [package.dependencies]
 colorama = ">=0.4.0,<0.5.0"
@@ -236,7 +236,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "3eb2947d745ce4ef38cc6be0bd4ca6f6c8a014bf9c3d93c09f19db4ce50d3c83"
+content-hash = "2736350e2c599f0bb00f057877815f97d4923f6b5a532c49591cceb47b124400"
 python-versions = "^3.6"
 
 [metadata.files]
@@ -328,8 +328,8 @@ regex = [
     {file = "regex-2020.5.7.tar.gz", hash = "sha256:73a10404867b835f1b8a64253e4621908f0d71150eb4e97ab2e7e441b53e9451"},
 ]
 rich = [
-    {file = "rich-1.0.3-py3-none-any.whl", hash = "sha256:01b5c41ea0c170059c77c9b9648a112eb9f57d3e58413e2a4193943bfc560d58"},
-    {file = "rich-1.0.3.tar.gz", hash = "sha256:5166c400e420ad7608a141341afaf8e9fb9a40326dd305ca24684cf359c6c866"},
+    {file = "rich-1.1.6-py3-none-any.whl", hash = "sha256:903c48ad0b1f2bbdab3f854b68968b0dcdc1d77e60044c5fad7a797e7e174e25"},
+    {file = "rich-1.1.6.tar.gz", hash = "sha256:df14d6975c205fa006043c2695c0e6abe2e2c80d299b897358c2552f38de973a"},
 ]
 toml = [
     {file = "toml-0.10.0-py2.7.egg", hash = "sha256:f1db651f9657708513243e61e6cc67d101a39bad662eaa9b5546f789338e07a3"},
