@@ -185,7 +185,7 @@ description = "Render rich text, tables, progress bars, syntax highlighting, mar
 name = "rich"
 optional = false
 python-versions = ">=3.6,<4.0"
-version = "1.2.3"
+version = "1.3.1"
 
 [package.dependencies]
 colorama = ">=0.4.0,<0.5.0"
@@ -328,8 +328,8 @@ regex = [
     {file = "regex-2020.5.14.tar.gz", hash = "sha256:ce450ffbfec93821ab1fea94779a8440e10cf63819be6e176eb1973a6017aff5"},
 ]
 rich = [
-    {file = "rich-1.2.3-py3-none-any.whl", hash = "sha256:00cfae0180e7f38d8d9ac2075b0decd15868210b1092d8a08af87434ff8bfe4b"},
-    {file = "rich-1.2.3.tar.gz", hash = "sha256:7c9202cbad4ea9bf407a2f74ebc38cdf67c95eca4d19b9d8274b71f508e38ac0"},
+    {file = "rich-1.3.1-py3-none-any.whl", hash = "sha256:ae56e1d4762fe1aaf580f0462a231f9960353816d3e29188eb7e6ff9a15b9135"},
+    {file = "rich-1.3.1.tar.gz", hash = "sha256:6a6c338d5d015ca23e340fe8af5f0b9eedb527821c69c22b94acc76fe3cb2e51"},
 ]
 toml = [
     {file = "toml-0.10.1-py2.py3-none-any.whl", hash = "sha256:bda89d5935c2eac546d648028b9901107a595863cb36bae0c73ac804a9b4ce88"},
