@@ -164,7 +164,7 @@ python-versions = "*"
 
 [[package]]
 name = "rich"
-version = "9.6.1"
+version = "9.12.3"
 description = "Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal"
 category = "main"
 optional = false
@@ -305,8 +305,8 @@ regex = [
     {file = "regex-2020.5.14.tar.gz", hash = "sha256:ce450ffbfec93821ab1fea94779a8440e10cf63819be6e176eb1973a6017aff5"},
 ]
 rich = [
-    {file = "rich-9.6.1-py3-none-any.whl", hash = "sha256:064814e6cfbc61ff1f82b1e950667c5dc3bf3ec3ed9ca6f62a29007d1bc5ed4c"},
-    {file = "rich-9.6.1.tar.gz", hash = "sha256:5ac9f4f7f6b0e32e7e412de127f15b94144e22c9a7896551474d640143bbaa7b"},
+    {file = "rich-9.12.3-py3-none-any.whl", hash = "sha256:bc7087a7fcca8852784ccccc88d992c23efaf9d7e1dcca991a440d7a779352e2"},
+    {file = "rich-9.12.3.tar.gz", hash = "sha256:77bd13c72350c4907540be33910c0ec13bebb68fba4986e055fb564338f9e94a"},
 ]
 toml = [
     {file = "toml-0.10.1-py2.py3-none-any.whl", hash = "sha256:bda89d5935c2eac546d648028b9901107a595863cb36bae0c73ac804a9b4ce88"},
