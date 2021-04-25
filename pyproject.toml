@@ -14,7 +14,7 @@ rich = ">=1.1,<10.0"
 
 [tool.poetry.dev-dependencies]
 isort = "^5.8"
-flake8 = "^3.9.0"
+flake8 = "^3.9.1"
 black = { version = "==20.8b1", allow-prereleases = true }
 
 [tool.poetry.scripts]
