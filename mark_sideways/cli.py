@@ -3,25 +3,12 @@ import math
 import re
 import shutil
 import sys
-from unittest.mock import patch
 
-from pygments.lexers import get_lexer_by_name
 from rich.console import Console
 from rich.markdown import Markdown
 from rich.style import Style
 from rich.syntax import Syntax
 from rich.table import Table
-
-
-def get_lexer_by_name_preserve_nl(*args, **kwargs):
-    return get_lexer_by_name(*args, **kwargs, stripnl=False)
-
-
-class ExtendedSyntax(Syntax):
-    def _highlight(self, *args, **kwargs):
-        # 🙈
-        with patch("rich.syntax.get_lexer_by_name", get_lexer_by_name_preserve_nl):
-            return super()._highlight(*args, **kwargs)
 
 
 def up(filename):
@@ -75,7 +62,7 @@ def sideways(filename):
     table.add_column("Syntax", width=math.floor(width / 2))
     table.add_column("Markdown", width=math.floor(width / 2))
     for chunk in chunks:
-        syntax = ExtendedSyntax(
+        syntax = Syntax(
             chunk, "md", theme="monokai", line_numbers=False, word_wrap=True
         )
         markdown = Markdown(chunk)
