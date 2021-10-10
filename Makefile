@@ -16,4 +16,7 @@ lint:
 	poetry run flake8 .
 
 test:
-	echo "TODO: write tests"
+	poetry run mark down README.md
+	poetry run mark up README.md
+	poetry run mark sideways README.md
+	echo "TODO: write some proper tests"
