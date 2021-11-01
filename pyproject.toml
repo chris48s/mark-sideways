@@ -15,7 +15,7 @@ rich = ">=10.2.0"
 [tool.poetry.dev-dependencies]
 isort = "^5.8"
 flake8 = "^4.0.1"
-black = { version = "==21.9b0", allow-prereleases = true }
+black = { version = "==21.10b0", allow-prereleases = true }
 
 [tool.poetry.scripts]
 mark = 'mark_sideways.cli:mark'
