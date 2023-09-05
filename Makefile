@@ -1,5 +1,5 @@
 SHELL := /bin/bash
-.PHONY: help format install lint test release
+.PHONY: help format install lint test build release
 
 help:
 	@grep '^\.PHONY' Makefile | cut -d' ' -f2- | tr ' ' '\n'
@@ -21,6 +21,9 @@ test:
 	poetry run mark up README.md
 	poetry run mark sideways README.md
 	echo "TODO: write some proper tests"
+
+build:
+	poetry build
 
 release:
 	# usage: `make release version=0.0.0`
