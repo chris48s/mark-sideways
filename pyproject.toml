@@ -9,7 +9,7 @@ repository = "https://github.com/chris48s/mark-sideways"
 homepage = "https://github.com/chris48s/mark-sideways"
 
 [tool.poetry.dependencies]
-python = ">=3.7"
+python = ">=3.8"
 rich = ">=10.2.0"
 
 [tool.poetry.dev-dependencies]
