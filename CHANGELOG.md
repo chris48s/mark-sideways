@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.0
+
+* Drop python 3.7
+* Convert python requirement to open range
+* Tested on python 3.11, 3.12
+
 ## 0.2.0
 
 * Dropped testing on python < 3.7
