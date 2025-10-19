@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.0
+
+* Drop python < 3.10
+* Tested on python 3.13, 3.14
+
 ## 0.3.0
 
 * Drop python 3.7

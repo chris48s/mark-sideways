@@ -1,6 +1,6 @@
 [project]
 name = "mark-sideways"
-version = "0.3.0"
+version = "0.4.0"
 description = "Render markdown in the terminal"
 authors = [{name = "chris48s"}]
 license = "MIT"
