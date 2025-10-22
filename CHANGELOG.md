@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.1
+
+* Fix build build-backend declaration
+
 ## 0.4.0
 
 * Drop python < 3.10
