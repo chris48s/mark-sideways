@@ -10,6 +10,8 @@ from rich.style import Style
 from rich.syntax import Syntax
 from rich.table import Table
 
+from .__version__ import __version__
+
 
 def up(filename):
     console = Console()
@@ -90,6 +92,9 @@ def parse_args(args):
         "direction",
         choices=["up", "down", "sideways"],
         help="Display the markdown file rendered, with syntax highlighting or both side-by-side",
+    )
+    arg_parser.add_argument(
+        "--version", action="version", version=f"%(prog)s {__version__}"
     )
     arg_parser.add_argument("filename", help="Path to a markdown file to render")
     return arg_parser.parse_args(args)
